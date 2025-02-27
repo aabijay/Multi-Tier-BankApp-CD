@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: aabijay44/bankapp:v12
+        image: aabijay44/bankapp:${DOCKER_TAG}
         ports:
         - containerPort: 8080
         env:
