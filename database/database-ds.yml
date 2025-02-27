@@ -23,6 +23,7 @@ spec:
           MYSQL_DATABASE: bankappdb
           MYSQL_USER: avi
           MYSQL_PASSWORD: avi123
+          LOCAL_HOST: mysql-service
 ---
 # MySQL Service
 apiVersion: v1
