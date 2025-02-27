@@ -20,7 +20,7 @@ spec:
         name: mysql
         env:
           MYSQL_ROOT_PASSWORD: avinash
-          MYSQL_DATABASE: bankapp
+          MYSQL_DATABASE: bankappdb
           MYSQL_USER: avi
           MYSQL_PASSWORD: avi123
 ---
